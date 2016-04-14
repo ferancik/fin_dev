@@ -1,0 +1,155 @@
+.main_span12{
+    position: relative;
+}
+
+#loading-indicator{
+    position: absolute;
+    right: 0;
+}
+ul.fotogallery{
+    padding: 0;
+    margin: 0 ;
+}
+.fotogallery{
+    float: left;
+}
+.fotogallery li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: 155px;
+    list-style: none outside none;
+    margin: 0 0.29em 0.8em;
+    padding: 0.4em;
+    text-align: center;
+    width: 142px;
+}
+.fotogallery li a.ui-icon-zoomin {
+    float: left;
+}
+.fotogallery li a {
+    float: right;
+}
+.is_main_foto{
+    display: inline;
+    width: 100px;
+}
+
+.formee-req{
+    color: red;
+    font-weight: bold;
+}
+
+/*a admin menu manger */
+
+.tree_hover{
+    background: #F7F7F7;
+}
+.tree_active{
+    background: #FBF9EF;
+}
+
+.tree_item{
+    padding: 5px;
+    list-style: none;
+}
+
+.tree_item span:hover{
+    background: #ddd;
+    cursor: pointer;
+}
+
+.tree_item_edit {
+    padding: 8px;
+    position: absolute;
+    right: -6px;
+    top: 0;
+}
+
+.tree_item_del {
+    padding: 8px;
+    position: absolute;
+    right: -29px;
+    top: 0;
+}
+
+.tree_item_move {
+    left: 2px;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+}
+
+.tree_item span{
+    position: relative; 
+    margin-left: 0;
+    padding-left: 0;
+    padding: 5px 10px 5px 20px;
+    list-style: none;
+    background: #ddd;
+    border: 1px solid #bbb; 
+    width: 100%; 
+    margin: 0 0 -1px 0; 
+    line-height: 1em;
+
+}
+.treeul{
+    padding-top: 5px;
+}
+.tree_label        {
+    display: block;
+    padding: 5px;
+}
+
+.ui-state-disabled,  .ui-state-disabled,  .ui-state-disabled {
+
+    opacity: 1 !important;
+}
+
+
+
+ul.the-icons {
+    margin: 0 9px 0 0;
+}
+
+
+ul.the-icons li {
+    float: left;
+    list-style: none outside none;
+}
+
+
+ul.the-icons a {
+    display: block;
+    float: left;
+    height: 16px;
+    padding: 8px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 16px;
+}
+ul.the-icons a:hover, ul.the-icons a.active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 3px #C8C8C8, 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent;
+}
+
+ul.the-icons a span {
+    display: none;
+}
+
+#backToTop {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    bottom: 20px;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 45px;
+    z-index: 9999;
+}
+/*a admin menu manger */
+

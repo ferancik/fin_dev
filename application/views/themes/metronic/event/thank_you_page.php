@@ -1,0 +1,2 @@
+Dakujem za registraciu
+
